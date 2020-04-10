@@ -5,8 +5,9 @@ def count_strings(array)
   
   
   array.count do |element|
-     if element.each == String
+     if element == String
     end 
+    count_strings
   end
 end
 
