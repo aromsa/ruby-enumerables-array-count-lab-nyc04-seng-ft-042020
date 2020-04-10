@@ -12,7 +12,7 @@ def count_empty_strings(array)
 #array = [ "", "Hello", 4, [], "", "" ]
 
    array.count do |element|
-     if element.is_a? String do
+     if element.is_a? String
        element.length <= 0
      end
    end
