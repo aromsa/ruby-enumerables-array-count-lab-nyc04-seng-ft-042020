@@ -5,7 +5,7 @@ def count_strings(array)
   
   
   array.count do |element|
-     element.class == String
+     if element.class == String
     end 
   end
 end
