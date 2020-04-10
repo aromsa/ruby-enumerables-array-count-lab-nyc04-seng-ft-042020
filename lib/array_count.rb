@@ -5,7 +5,7 @@ def count_strings(array)
   
   
   array.count do |element|
-     element.is_a?(String)
+     if element.each.is_a?(String)
     end 
   end
 end
