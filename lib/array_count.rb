@@ -9,7 +9,6 @@ def count_strings(array)
      else nil
     end 
   end
-  count_strings
 end
 
 def count_empty_strings(array)
